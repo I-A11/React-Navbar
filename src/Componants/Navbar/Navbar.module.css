@@ -1,0 +1,76 @@
+.Navbar {
+  background: black;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 999;
+}
+
+.nav {
+  background: black;
+  height: 80px;
+}
+
+.Navigation ul {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navigation a {
+  margin: 0 15px;
+  color: azure;
+  font-size: 1.5rem;
+}
+
+.Navigation a:hover {
+  color: #f56e0e;
+}
+
+.MobileNavigation {
+  display: none;
+}
+
+.MobileNavigation ul {
+  display: block;
+  margin-left: 20px;
+  padding-top: 61px;
+  height: 260px;
+}
+.MobileNavigation li {
+  padding: 5px 0;
+}
+.MobileNavigation a {
+  color: azure;
+  font-size: 1.5rem;
+}
+
+.MobileNavigation a:hover {
+  color: #f56e0e;
+}
+
+@media screen and (max-width: 800px) {
+  .Navigation {
+    display: none;
+  }
+  nav .MobileNavigation {
+    background: black;
+    height: 80px;
+  }
+  .MobileNavigation {
+    display: block;
+    background: black;
+  }
+}
+
+.Toggle {
+  color: cyan;
+  font-size: 1.9rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 15px;
+  margin-right: 15px;
+}

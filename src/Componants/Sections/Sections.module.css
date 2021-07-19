@@ -1,0 +1,46 @@
+section {
+  height: 500px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.Home {
+  padding-top: 80px;
+  color: red;
+  background-color: yellow;
+}
+h1 {
+  padding-top: 100px;
+}
+
+.About {
+  display: flex;
+  color: teal;
+  background: #1b1919;
+  justify-content: center;
+  align-items: center;
+}
+
+.Projects {
+  display: flex;
+  color: #800000;
+  background: #119405;
+  justify-content: center;
+  align-items: center;
+}
+
+.Skills {
+  display: flex;
+  color: #1dd1d1;
+  background: #2a85ee;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contacts {
+  display: flex;
+  color: teal;
+  background: #1b1919;
+  justify-content: center;
+  align-items: center;
+}
